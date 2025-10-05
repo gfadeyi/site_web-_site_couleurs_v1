@@ -1,0 +1,94 @@
+/* style.css */
+
+/* --- Style général --- */
+body {
+  font-family: Verdana, sans-serif; /* Choisit la police du texte */
+  background-color: whitesmoke;   /* Couleur de fond claire */
+  color: black;                   /* Couleur du texte */
+  margin: 0;                      /* Supprime la marge par défaut du navigateur */
+  padding: 20px;                  /* Espace intérieur autour du contenu */
+}
+
+
+/* Titres */
+h1 {
+  color: blue;                    /* Couleur du titre principal */
+  text-align: center;             /* Centre le texte */
+  margin-bottom: 30px;            /* Espace sous le titre */
+}
+
+h2 {
+  color: darkslategray;           /* Gris-bleuté pour les sous-titres */
+  margin-top: 30px;               /* Espace au-dessus */
+}
+
+
+/* Paragraphes */
+p {
+  line-height: 1.6;               /* Espace entre les lignes */
+  margin-bottom: 15px;            /* Espace après le paragraphe */
+}
+
+p a {
+  text-decoration: none;          /* Supprime le soulignement */
+  color: royalblue;               /* Couleur des liens */
+  margin-right: 15px;             /* Petit espace entre les liens */
+  font-weight: bold;              /* Met en gras */
+}
+
+p a:hover {
+  color: navy;                    /* Couleur quand on passe la souris */
+  text-decoration: underline;     /* Soulignement au survol */
+}
+
+
+/* Listes */
+ul, ol {
+  margin-left: 40px;              /* Décale la liste à droite */
+  margin-bottom: 20px;            /* Espace sous la liste */
+}
+
+li {
+  margin-bottom: 5px;             /* Espace entre les éléments */
+}
+
+
+/* Images */
+img {
+  border-radius: 8px;             /* Coins arrondis */
+  border: 2px solid lightgray;    /* Bordure grise */
+  margin: 10px;                   /* Espace autour de l’image */
+  transition: transform 0.3s ease;/* Animation douce quand on passe la souris */
+}
+
+img:hover {
+  transform: scale(1.05);         /* Zoom léger au survol */
+}
+
+
+/* Tableaux */
+table {
+  width: 80%;                     /* Largeur du tableau */
+  margin: 20px auto;              /* Centre le tableau horizontalement */
+  border-collapse: collapse;      /* Supprime les espaces entre les bordures */
+  background: white;              /* Fond blanc */
+}
+
+th, td {
+  border: 1px solid gray;         /* Bordure grise */
+  padding: 10px;                  /* Espace interne dans les cellules */
+  text-align: center;             /* Centre le texte */
+}
+
+th {
+  background-color: royalblue;    /* Fond bleu pour les en-têtes */
+  color: white;                   /* Texte blanc */
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;   /* Fond clair pour les lignes paires */
+}
+
+tr:hover {
+  background-color: lightblue;    /* Légère couleur au survol */
+}
